@@ -3,7 +3,7 @@ body{
 }
 .display-center{
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
 #Top-Banner{
     background-image:linear-gradient(0deg,rgba(18,18,18,1),rgba(18,18,18,0)), url(images/donation0.jpg);
@@ -43,24 +43,24 @@ body{
     border-radius: 5px;
     margin-top: 100px;
 }
-#donate-today{
+.donate-today-content{
     text-align: center;
+    margin:0px 0px 50px;
 }
-#donate-today h2{
+.donate-today-content h2{
     font-weight: 700px;
     font-size: 45px;
     font-family: 'Inter', sans-serif;
     color: #121212;
     margin:30px 0px;
 }
-#donate-today p{
+.donate-today-content p{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     width: 691px;
     height: 56px;
     color:#707070;
     margin:0px 40px 40px;
-    text-align: center;
 }
 .taka-button{
     width:136px;
@@ -97,4 +97,154 @@ input[type=text]:focus{
 }
 #first-input{
     margin:40px 0px;
+}
+.donate-plans{
+    display: flex;
+    justify-content: center;
+    width:1100px;
+}
+.donate-plan-content{
+    text-align: center;
+    margin:0px 0px 50px;
+    width:691px;
+
+}
+.donate-plan-content h2{
+    font-weight: 700px;
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    margin:30px 0px;
+}
+.donate-plan-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    width: 691px;
+    height: 56px;
+    color:#707070;
+    margin:0px 40px 40px;
+}
+
+.plan{
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+.plan-content h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    width: 315px;
+    margin-top: 80px;
+    
+}
+.plan-content p{
+    text-align:left;
+    font-size: 16px;
+    width: 315px;
+    margin: 0;
+    color: rgba(112, 112, 112, 1);
+}
+.plan img{
+    position: absolute;
+    left: 30px;
+    top:50px;
+    margin-bottom: 30px;
+}
+#bg-color-blue{
+    background-color: rgba(79,157,166,0.1);
+}
+#bg-color-pink{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+#bg-color-brown{
+    background-color: #FFF4D6;
+}
+.plan-content{
+    position: absolute;
+    margin-top: 50px;
+    left: 30px;
+    height: 101px;
+}
+.update-content h2{
+    font-weight: 700px;
+    font-size: 45px;
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    margin:30px 0px;
+}
+.update-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    width: 691px;
+    height: 56px;
+    color:#707070;
+    margin:0px 40px 40px;
+}
+.update-content{
+    text-align: center;
+    margin:0px 0px 50px;
+}
+.update-form{
+    width:809px;
+    height: 200px;
+    background-color:rgba(255, 244, 214, 1);
+}
+input[type=email]{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color:#AA9F9F;
+    border: none;
+    line-height: 28px;
+    background-color: #D9D9D9;
+    width:275px;
+
+}
+input[type=email]:focus{
+    outline: none !important;
+    border: 2px solid #121212;
+    color:#121212;
+}
+.update-form form{
+    height: 48px;
+    display: inline-block;
+}
+#sub-email{
+    width:432px;
+    height:48px;
+    padding:90px 200px;
+    display: flex;
+    justify-content: center;
+}
+.subscribe-button{
+    text-decoration: none;
+    border: none;
+    color:white;
+    background-color: #FF5959;
+    margin-left: -5px;
+    width: 157px;
+    height: 48px;
+}
+footer{
+    background-color: #0B0D17;
+    height:177px;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    color:#FF5959;
+    font-size: 36px;
+    
+}
+footer p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    color:#D9DBE1;
+    padding-left: 30px;
+
 }
